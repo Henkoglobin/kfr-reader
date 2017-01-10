@@ -65,6 +65,10 @@
       <Project>{07BB8DC9-A802-4151-816C-01866240856D}</Project>
       <Name>KfrBinaryReader.Parsers</Name>
     </ProjectReference>
+    <ProjectReference Include="..\KfrBinaryReader.Utils\KfrBinaryReader.Utils.csproj">
+      <Project>{01DFD867-D7A9-4E63-B494-16448A8E46D0}</Project>
+      <Name>KfrBinaryReader.Utils</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

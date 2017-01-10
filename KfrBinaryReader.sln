@@ -17,6 +17,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KfrBinaryReader.Parsers", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KfrBinaryReader.Exporters", "KfrBinaryReader.Exporters\KfrBinaryReader.Exporters.csproj", "{781BA003-AEB4-40F4-A376-23198E656E1C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F61F1A51-E630-4A02-94E0-8CDA27DDA075}"
+	ProjectSection(SolutionItems) = preProject
+		phobos.png = phobos.png
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KfrBinaryReader.Utils", "KfrBinaryReader.Utils\KfrBinaryReader.Utils.csproj", "{01DFD867-D7A9-4E63-B494-16448A8E46D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +59,10 @@ Global
 		{781BA003-AEB4-40F4-A376-23198E656E1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{781BA003-AEB4-40F4-A376-23198E656E1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{781BA003-AEB4-40F4-A376-23198E656E1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01DFD867-D7A9-4E63-B494-16448A8E46D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01DFD867-D7A9-4E63-B494-16448A8E46D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01DFD867-D7A9-4E63-B494-16448A8E46D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01DFD867-D7A9-4E63-B494-16448A8E46D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

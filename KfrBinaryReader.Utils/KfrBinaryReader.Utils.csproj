@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5EC36511-EA7D-44FD-810F-55DD1C0A2400}</ProjectGuid>
+    <ProjectGuid>{01DFD867-D7A9-4E63-B494-16448A8E46D0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>KfrBinaryReader.Extensions</RootNamespace>
-    <AssemblyName>KfrBinaryReader.Extensions</AssemblyName>
+    <RootNamespace>KfrBinaryReader.Utils</RootNamespace>
+    <AssemblyName>KfrBinaryReader.Utils</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,8 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArrayExtensions.cs" />
-    <Compile Include="EnumerableExtensions.cs" />
+    <Compile Include="FileSystemUtil.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

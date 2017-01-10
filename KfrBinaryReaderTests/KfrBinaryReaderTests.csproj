@@ -50,8 +50,15 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="ArrayExtensionsTests.cs" />
     <Compile Include="EnumerableExtensionTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KfrBinaryReader.Extensions\KfrBinaryReader.Extensions.csproj">
+      <Project>{5EC36511-EA7D-44FD-810F-55DD1C0A2400}</Project>
+      <Name>KfrBinaryReader.Extensions</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
